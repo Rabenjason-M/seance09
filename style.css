@@ -1,0 +1,70 @@
+/* style.css */
+
+/* Configuration générale de la page */
+body {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    margin: 40px;
+    background-color: #f4f6f9;
+    color: #333;
+    line-height: 1.6;
+}
+
+/* Style des titres */
+h1 {
+    color: #2c3e50;
+    border-bottom: 2px solid #3498db;
+    padding-bottom: 10px;
+}
+
+/* Barre de navigation (Menu commun) */
+nav ul {
+    list-style: none;
+    padding: 0;
+    margin: 20px 0;
+    display: flex;
+    gap: 20px;
+    background: #2c3e50;
+    padding: 12px 20px;
+    border-radius: 6px;
+}
+
+nav li {
+    display: inline;
+}
+
+nav a {
+    color: #ffffff;
+    text-decoration: none;
+    font-weight: 600;
+    transition: color 0.2s ease;
+}
+
+nav a:hover {
+    color: #3498db;
+}
+
+/* Conteneur principal */
+main {
+    margin-top: 30px;
+}
+
+/* Carte de profil pour la page À Propos */
+.card {
+    background: #ffffff;
+    padding: 25px;
+    border-radius: 8px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.05);
+    max-width: 450px;
+    border-left: 5px solid #3498db;
+}
+
+.card p {
+    margin: 10px 0;
+    font-size: 1.1rem;
+}
+
+.card strong {
+    color: #2c3e50;
+    min-width: 150px;
+    display: inline-block;
+}
